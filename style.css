@@ -1,0 +1,29 @@
+/* .fade-in-text {
+    font-family: Arial;
+    font-size: 150px;
+    animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }   */
+
+  .container {
+    width: 100%;
+  }
+  
+  .column1 {
+    float: left;
+    width: 50%;
+    background-color: pink;
+    height: 98vh;
+    
+  }
+  
+  .column2 {
+    float: left;
+    width: 50%;
+    background-color: aqua;
+    height: 98vh;
+  }
+  

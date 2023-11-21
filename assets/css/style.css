@@ -1,13 +1,29 @@
-/* .fade-in-text {
-    font-family: Arial;
-    font-size: 150px;
-    animation: fadeIn 5s;
-  }
-  @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }   */
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+}
 
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: pink;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: pink;
+  color: black;
+}
   .container {
     width: 100%;
   }
